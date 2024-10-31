@@ -23,6 +23,7 @@ class TodoApp extends ConsumerWidget {
             ),
             onSubmitted: (newTodo) {
               ref.read(todoListProvider.notifier).addTodo(newTodo);
+              newTodoController.clear();
             },
           ),
           SizedBox(height: 20),

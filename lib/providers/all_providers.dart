@@ -15,10 +15,10 @@ final todoListProvider =
     StateNotifierProvider<TodoListManager, List<TodoModel>>(
   (ref) {
     return TodoListManager([
-      TodoModel(id: const Uuid().v4(), description: "spora git"),
-      TodoModel(id: const Uuid().v4(), description: "ders çalış"),
-      TodoModel(id: const Uuid().v4(), description: "alışveriş"),
-      TodoModel(id: const Uuid().v4(), description: "tv izle"),
+      // TodoModel(id: const Uuid().v4(), description: "spora git"),
+      // TodoModel(id: const Uuid().v4(), description: "ders çalış"),
+      // TodoModel(id: const Uuid().v4(), description: "alışveriş"),
+      // TodoModel(id: const Uuid().v4(), description: "tv izle"),
     ]);
   },
 );
